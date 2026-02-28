@@ -115,8 +115,8 @@ public class MyActivity extends Activity {
             String originalName = getOriginalFileName(sourceUri);
             String newFileName = originalName;
 
-            if (newFileName.length() > 25) {
-                newFileName = newFileName.substring(25);
+            if (newFileName.length() > 28) {
+                newFileName = newFileName.substring(28);
             } else {
                 newFileName = "saved_" + newFileName;
             }
