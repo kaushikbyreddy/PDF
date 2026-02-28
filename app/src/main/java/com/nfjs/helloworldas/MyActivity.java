@@ -61,8 +61,8 @@ public class MyActivity extends Activity {
             String newFileName = originalName;
 
             // 2. Remove the first 25 characters (with a safety check so it doesn't crash on short names)
-            if (newFileName.length() > 25) {
-                newFileName = newFileName.substring(25);
+            if (newFileName.length() > 28) {
+                newFileName = newFileName.substring(28);
             } else {
                 // If it's shorter than 25 characters, just prepend "saved_" so it doesn't crash
                 newFileName = "saved_" + newFileName;
